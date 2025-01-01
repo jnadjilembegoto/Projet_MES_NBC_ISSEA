@@ -71,7 +71,7 @@ def dash_Environnement():
         data=pd.read_excel(data_path,
                         sheet_name="Infomel_Region")
     if onglets_selectionnee=="Précipitation":
-        st.write("## Evolution de la température du Tchad")
+        st.write("## Evolution des pécipitations au Tchad")
     if onglets_selectionnee=="Productivité agricole":
         st.write("## Agriculture au Tchad")
     if onglets_selectionnee=="Emission des gaz à effet de serre":
