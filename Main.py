@@ -85,7 +85,7 @@ elif page=="Dynamique de la population active":
 elif page=="Emploi-Activité économique":
     dash_secteur_pro_ais()
 elif page=="Démographie":
-    dash_dash_demog()
+    dash_demog()
 elif page=="Environnement-Agriculture":
     dash_Environnement()
 elif page=="Simulation des impacts":
