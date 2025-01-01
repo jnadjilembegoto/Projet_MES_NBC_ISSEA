@@ -8,8 +8,6 @@ from Pages_utiles.Secteur_prof_ais import dash_secteur_pro_ais
 from Pages_utiles.demog import dash_demog#demog
 from Pages_utiles.environnement import dash_Environnement#Environnement
 from Pages_utiles.simulation import dash_simulation#Simulation des impacts
-from Pages_utiles.ACP import acp_analyse
-from Pages_utiles.ml_predict import dash_ml
 import altair as alt
 import openpyxl
 
@@ -78,7 +76,7 @@ align-items: center;
 
 # Barre latérale pour la navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Aller à :", ["Accueil","Dynamique de la population active","Emploi-Activité économique","Démographie","Environnement","Simulation des impacts","About Us"])
+page = st.sidebar.selectbox("Aller à :", ["Accueil","Dynamique de la population active","Emploi-Activité économique","Démographie","Environnement-Agriculture","Simulation des impacts","About Us"])
 
 if page == "About Us":
     about_us_page()
@@ -88,14 +86,10 @@ elif page=="Emploi-Activité économique":
     dash_secteur_pro_ais()
 elif page=="Démographie":
     dash_dash_demog()
-elif page=="Environnement":
+elif page=="Environnement-Agriculture":
     dash_Environnement()
 elif page=="Simulation des impacts":
     dash_simulation()
-elif page=="ACP":
-    acp_analyse()
-elif page=="Aide à la décision":
-    dash_ml()
 else:
     accueil_load()
 
