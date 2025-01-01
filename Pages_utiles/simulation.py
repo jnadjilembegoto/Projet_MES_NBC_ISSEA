@@ -8,7 +8,7 @@ from Datas.data_link import data_dir
 
 ## Importation de la base de données
 
-def dash_chef_entreprise():
+def dash_simulation():
     st.markdown("""
         <style>
         .stApp {
