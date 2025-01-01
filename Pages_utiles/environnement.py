@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
 
-import plotly.express as px
 from Datas.data_link import data_dir
 
 data_path=data_dir('base_streamlit_storytellers.xlsx')
@@ -72,7 +70,12 @@ def dash_Environnement():
         st.write("## Evolution de la température du Tchad")
         data=pd.read_excel(data_path,
                         sheet_name="Infomel_Region")
-       
+    if onglets_selectionnee=="Précipitation":
+        st.write("## Evolution de la température du Tchad")
+    if onglets_selectionnee=="Productivité agricole":
+        st.write("## Agriculture au Tchad")
+    if onglets_selectionnee=="Emission des gaz à effet de serre":
+        st.write("## Pollution atmosphérique")
               
 
 
