@@ -13,7 +13,7 @@ data_path=data_dir('base_streamlit_storytellers.xlsx')
 #pd.read_excel(data_path,sheet_name="Secteur_prof_ais")
 
 
-def dash_sect_informel():   
+def dash_Environnement():   
     st.markdown("""
         <style>
         .stApp {
