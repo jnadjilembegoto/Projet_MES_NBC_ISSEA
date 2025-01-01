@@ -44,11 +44,11 @@ def accueil_load():
     st.markdown("Sous l'encadrement de **M. CHASSEM**")
     st.sidebar.markdown('---')
     st.sidebar.markdown("## Base de données utilisée")
-    st.sidebar.markdown("""[*Données appurées*](https://github.com/jnadjilembegoto/Employment_Data_Storytellers)
+    st.sidebar.markdown("""[*Données appurées*](https://github.com/jnadjilembegoto/Projet_MES_NBC_ISSEA)
                         """)
     st.sidebar.markdown('---')
     st.sidebar.markdown("## Scripts de l'application")
-    st.sidebar.markdown("""[*Code de l'application*](https://github.com/jnadjilembegoto/Employment_Data_Storytellers)
+    st.sidebar.markdown("""[*Code de l'application*](https://github.com/jnadjilembegoto/Projet_MES_NBC_ISSEA)
                         """)
     st.markdown('---')
     st.markdown(
@@ -68,12 +68,11 @@ def accueil_load():
         - **Accueil:** We are here!
         - **Dynamique de la population active:** Un aperçu sur la proportion des personnes âgées de 15 à 64 ans dans un pays
         - **Emploi-Activité économique:** Une description des trois secteurs d'activités clés (agriculture, industrie et service)
-        - **Aperçu de l'emploi:** Des analyses par pays, régionales et comparatives sur le taux d'emploi
-        - **Coup d'oeil sur le chômage:** Des analyses similaires au taux d'emploi sont effectuées sur le taux de chômage
-        - **Emploi informel:** Des analyses sur le taux d'emploi informel par région, pays et des analyses comparatives
+        - **Démographie:** Une présentation générale de la démographie du Tchad suivant les années
+        - **Environnement-Agriculture:** Une présentation des indicateurs climatique et environnemental
+        - **Simulation:** Une simulation de l'impact de la variation relative d'une variable exogène sur les variables endogènes de notre système
         - **About us:** Une présentation de tous les membres de la Data Storytellers Team.
-        - **Inégalité dans les postes manageriaux:** Une visualisation des proportions des chefs d'entreprises dans les pays au cours du temps
-       """
+        """
     )
     st.markdown("---")
     st.markdown("""
