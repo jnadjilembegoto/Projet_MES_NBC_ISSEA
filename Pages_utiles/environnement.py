@@ -4,8 +4,6 @@ import plotly.graph_objects as go
 
 import plotly.express as px
 from Datas.data_link import data_dir
-from Pages_utiles.Emploi_vulnerable import emploi_vul# ici c'est travailleur pauvre
-from Pages_utiles.Taux_emploi_vulnerable import dash_taux_empl_vul
 
 data_path=data_dir('base_streamlit_storytellers.xlsx')
 ## Definition de fonction pour gerer sidebar
