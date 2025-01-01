@@ -5,10 +5,9 @@ from Pages_utiles.About_us  import about_us_page
 from Pages_utiles.Dashboard_pop_active import dash_pop_active
 from Pages_utiles.Accueil import accueil_load
 from Pages_utiles.Secteur_prof_ais import dash_secteur_pro_ais
-from Pages_utiles.Taux_emploi import dash_taux_emploi
-from Pages_utiles.Taux_chomage import dash_chom
-from Pages_utiles.Taux_emploi_informel import dash_sect_informel
-from Pages_utiles.Chef_d_entreprise import dash_chef_entreprise
+from Pages_utiles.demog import dash_demog#demog
+from Pages_utiles.environnement import dash_Environnement#Environnement
+from Pages_utiles.simulation import dash_simulation#Simulation des impacts
 from Pages_utiles.ACP import acp_analyse
 from Pages_utiles.ml_predict import dash_ml
 import altair as alt
@@ -87,14 +86,12 @@ elif page=="Dynamique de la population active":
     dash_pop_active()
 elif page=="Emploi-Activité économique":
     dash_secteur_pro_ais()
-elif page=="Aperçu de l'emploi":
-    dash_taux_emploi()
-elif page=="Coup d'oeil sur le chômage":
-    dash_chom()
-elif page=="Défis de l'emploi":
-    dash_sect_informel()
-elif page=="Inégalité dans les postes manageriaux":
-    dash_chef_entreprise()
+elif page=="Démographie":
+    dash_dash_demog()
+elif page=="Environnement":
+    dash_Environnement()
+elif page=="Simulation des impacts":
+    dash_simulation()
 elif page=="ACP":
     acp_analyse()
 elif page=="Aide à la décision":
