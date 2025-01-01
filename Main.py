@@ -79,7 +79,7 @@ align-items: center;
 
 # Barre latérale pour la navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Aller à :", ["Accueil","Dynamique de la population active","Emploi-Activité économique","Aperçu de l'emploi","Inégalité dans les postes manageriaux","Coup d'oeil sur le chômage","Défis de l'emploi","ACP","Aide à la décision","About Us"])
+page = st.sidebar.selectbox("Aller à :", ["Accueil","Dynamique de la population active","Emploi-Activité économique","Démographie","Environnement","Simulation des impacts","About Us"])
 
 if page == "About Us":
     about_us_page()
