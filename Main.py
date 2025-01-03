@@ -18,7 +18,7 @@ import openpyxl
 #    return pd.read_excel(data_full_path)
 
 st.set_page_config(
-    page_title="African Employment Dashboard",
+    page_title="Productivité agricole et changement climatique",
     page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded")
